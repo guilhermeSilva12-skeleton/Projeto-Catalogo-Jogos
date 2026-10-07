@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    padding: 5px 5px ;
+    background-color: rgb(25, 24, 24);
+}
+#imagem {
+    width: 70px;
+    height: 80px;
+}
+#title {
+    color: white;
+    font-size: 2rem;
+}
+#opcoes {
+    display: flex;
+    gap: 30px;
+    padding-top: 10px;
+    padding-left: 35rem;
+}
+.Selected{
+    background-color: rgb(43, 108, 161);
+    color: rgb(0, 0, 0);
+    border-radius: 25px;
+    width: 52px;
+    height: 20px;
+}
+.others {
+    background-color: rgb(40, 40, 43);
+    color: white;
+    width: 60px;
+    height: 20px;
+    border-radius: 25px;
+}
+body {
+    background-color: rgb(48, 46, 46) ;
+}
